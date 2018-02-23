@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd datasheets
+../.venv3/bin/python manage.py $@
+popd
